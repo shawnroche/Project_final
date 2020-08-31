@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F44336"
+    android:padding="10dp"
+    tools:context="com.example.project.HashTagActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/welcome"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/keyWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:autofillHints="KeyWord"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/please_enter_your_hashtag_here"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:text="@string/choose_the_language_you_would_like_to_view_the_tweet_in"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/languageUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:autofillHints="Language"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/confirmBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/gradient_button"
+        android:text="@string/confirm" />
+
+</RelativeLayout>

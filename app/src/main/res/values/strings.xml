@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tweeter Translation</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">RwAoKkHDHLVwBkVcmmFRWwusu</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">CeRppxgNANXiqbP2QtY34VHugMTzBezvk6wJIp5Xig3lwEV11w</string>
+    <string name="com.twitter.sdk.android.ACCESS_TOKEN">2352477580-IcTd4PKy5mh9cW513l9LAOLschd7e4OKhvTwmJb</string>
+    <string name="com.twitter.sdk.android.ACCESS_TOKEN_SECRET">w8oytYNlnPRxtJZKk8BhIFvx0nBexXt7hZgGnteYKHv6l</string>
+    <string name="welcome_to_homepage">Welcome to HomePage</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">welcome</string>
+    <string name="keyword">Keyword</string>
+    <string name="please_enter_your_keyword_here">Please enter your KeyWord here</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="confirm">Confirm</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="would_you_like_to_translate_this_tweet">Would you like to translate this tweet</string>
+    <string name="translate">Translate</string>
+    <string name="text">Text</string>
+    <string name="translated_tweet">Translated Tweet</string>
+    <string name="welcome_to_tweeter_translator_please_log_into_yout_twitter_account_to_continue">welcome to Tweeter Translator please log into yout Twitter account to continue.</string>
+    <string name="choose_the_language_you_would_like_to_view_the_tweet_in">Choose the language you would like to view the tweet in</string>
+    <string name="home">HOME</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="language_being_used">language being used</string>
+    <string name="Hashtag_being_used">keyword being used</string>
+    <string name="language">Language</string>
+    <string name="search">Search</string>
+    <string name="choose">Choose</string>
+    <string name="hasntag_being_used">Hasntag being used</string>
+    <string name="hashtag">Hashtag</string>
+    <string name="please_enter_your_hashtag_here">Please enter your Hashtag here</string>
+    <string name="welcome_to_tweeter_translator_please_login_to_continue">welcome to tweeter translator please login to continue</string>
+    <string name="please_login_to_continue">please login to continue</string>
+    <string name="tweeter_translator">tweeter translator</string>
+    <string name="welcome_to">welcome to</string>
+</resources>
