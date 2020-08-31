@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Http {
     private static final String BASE_URL = "https://www.googleapis.com/language/translate/v2?key=";
-    private static final String KEY = "AIzaSyAokzclNZuGLUj37mlNuOheG92qsJaJ7wU";
+    private static final String KEY = "enter key";
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 
